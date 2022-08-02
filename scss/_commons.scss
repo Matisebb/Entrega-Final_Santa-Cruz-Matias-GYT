@@ -172,9 +172,23 @@ footer div a{
   background: rgba(186, 186, 186, .05);
 }
 
+.textList {
+  font-size: 1.9rem;
+  color: #ff4a11;
+  font-weight: 500;
+  list-style: none; 
+}
 
+
+
+/* CLIENTES */
 .carousel-control-next,
 .carousel-control-prev /*, .carousel-indicators */ {
     filter: invert(100%);
 }
 
+.textList {
+  font-size: 1.9rem;
+  color: #ff4a11;
+  font-weight: 500;
+  list-style: none; }

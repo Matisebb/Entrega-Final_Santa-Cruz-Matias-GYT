@@ -124,9 +124,22 @@ footer div a {
 .bg-div {
   background: rgba(186, 186, 186, 0.05); }
 
+.textList {
+  font-size: 1.9rem;
+  color: #ff4a11;
+  font-weight: 500;
+  list-style: none; }
+
+/* CLIENTES */
 .carousel-control-next,
 .carousel-control-prev {
   filter: invert(100%); }
+
+.textList {
+  font-size: 1.9rem;
+  color: #ff4a11;
+  font-weight: 500;
+  list-style: none; }
 
 .bg-linear-gradient {
   background: #b6b6b6;
