@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700&display=swap");
+@import url(animate.css);
+* {
+  font-family: "Nunito", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth; }
+
+body {
+  overflow-x: hidden;
+  background: whitesmoke; }
+
+h1 {
+  color: #ff4a11;
+  font-size: 4.2rem; }
+
+h2 {
+  font-size: 3rem;
+  color: #020202; }
+
+article p {
+  font-size: 1.9rem;
+  line-height: 3.5rem;
+  color: #020202;
+  text-decoration: none; }
+
+main a {
+  text-decoration: none;
+  color: #020202; }
+
+form {
+  text-decoration: none;
+  color: #020202;
+  font-size: 2rem;
+  display: inline-block; }
+
+h3 {
+  font-size: 2.5rem;
+  color: #020202; }
+
+article h3 {
+  font-size: 3rem; }
+
+section p {
+  font-size: 1.9rem;
+  line-height: 2.3rem; }
+
+h4 {
+  font-size: 2.2rem;
+  color: #020202; }
+
+footer div a {
+  font-size: 1.9rem;
+  text-decoration: none;
+  color: #020202; }
+
+/* FONT WEIGHT */
+.textBold {
+  font-weight: 500; }
+
+.textMedium {
+  font-weight: 500; }
+
+.textRegular {
+  font-weight: 400; }
+
+.textLight {
+  font-weight: 300; }
+
+/* TEXT ALIGN */
+.textCenter {
+  text-align: center; }
+
+.textLeft {
+  text-align: left; }
+
+.textRight {
+  text-align: right; }
+
+.textJustify {
+  text-align: justify; }
+
+/*ETIQUETAS RANDOM */
+/* SIZE ICO REDES */
+.imgFooter {
+  width: 35px; }
+
+/* CURSOR POINTER FOOTER */
+.imgFooter:hover {
+  cursor: pointer; }
+
+.error {
+  background-image: url(../img/michinotfound.png); }
+
+/* INDEX */
+/* ANIMACION HOVER SOBRE BTN */
+.nosotrosBtn {
+  background-color: #ff4a11;
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+  list-style: none;
+  width: 120px;
+  text-align: center; }
+
+.nosotrosBtn:hover {
+  filter: brightness(130%);
+  text-decoration: none;
+  list-style: none;
+  color: white; }
+
+/* SERVICIOS */
+/*BG DE ARTICLE SERVICIOS */
+.bg-div {
+  background: rgba(186, 186, 186, 0.05); }
+
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%); }
+
+.bg-linear-gradient {
+  background: #b6b6b6;
+  background: linear-gradient(150deg, #b6b6b6 0%, #c7c7c7 64%, #ec4410 100%); }
+
+.navBs {
+  font-size: 1.2rem;
+  box-shadow: 0 5px 5px #e5e5e5; }
+
+nav img {
+  width: 75px; }
+  @media (min-width: 258px) and (max-width: 320px) {
+    nav img {
+      width: 60px; } }
+
+nav ul {
+  font-size: 2.5rem; }
+
+.sectionForm {
+  background: #181818;
+  color: white;
+  box-sizing: border-box;
+  padding: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1170px; }
+
+.colorForm {
+  color: white; }
+
+.logo {
+  text-align: center;
+  font-size: 2rem;
+  color: white; }
+  .logo span {
+    color: #f44a11; }
+
+.contact-wrapper {
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3); }
+
+.contact-wrapper > * {
+  padding: 1rem; }
+
+.contactForm {
+  background: #222222;
+  border: none; }
+  .contactForm form {
+    margin: 0;
+    padding: 1rem; }
+  .contactForm form label, .contactForm form input {
+    width: 100%;
+    padding: .7rem;
+    border: none; }
+  .contactForm form textarea {
+    width: 100%;
+    padding: .7rem;
+    border: none; }
+  .contactForm form button {
+    width: 100%;
+    padding: .7rem;
+    border: none;
+    background: #f44a11;
+    text-transform: uppercase;
+    padding: 1rem; }
+
+.masInfo {
+  text-decoration: none;
+  color: #020202; }
+
+footer .bg-linear-gradient {
+  background: #b6b6b6;
+  background: linear-gradient(150deg, #b6b6b6 0%, #c7c7c7 64%, #ec4410 100%); }
+
+footer section p .textRegular {
+  font-weight: 400; }
+  footer section p .textRegular .imgFooter {
+    width: 35px; }
+
+footer section p .textLight {
+  font-weight: 300; }
+  footer section p .textLight .textBold {
+    font-weight: 700; }
+
+.card {
+  width: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease; }
+  .card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%); }

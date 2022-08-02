@@ -1,0 +1,180 @@
+@import url(animate.css);
+
+*{
+  font-family: $universalFont;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+html{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+
+}
+
+
+body{
+  overflow-x: hidden;
+  background: $bodyColor;
+}
+
+
+h1{
+  color: rgb(255, 74, 17);
+  font-size: $titleSize;
+}
+
+h2{
+  font-size: $subtitleSize;
+  color: $textColor;
+}
+
+article p{
+  font-size: $pSize;
+  line-height: 3.5rem;
+  color:$textColor;
+  text-decoration: none;
+}
+
+
+main a{
+  text-decoration: none;
+  color: $textColor;
+}
+
+
+
+form {
+  text-decoration: none;
+  color: $textColor;
+  font-size: $formSize;
+  display: inline-block;
+}
+
+
+h3{
+  font-size: $h3Size;
+  color: $textColor;
+}
+
+
+article h3{
+  font-size: $subtitleSize;
+}
+
+
+section p{
+  font-size: $pSize;
+  line-height: 2.3rem;
+}
+
+h4{
+  font-size: $h4Size;
+  color: rgb(2, 2, 2);
+}
+
+footer div a{
+  font-size: $pSize;
+  text-decoration: none;
+  color: $textColor;
+}
+
+
+/* FONT WEIGHT */
+
+.textBold{
+  font-weight: $medium;
+}
+
+.textMedium{
+  font-weight: $medium;
+}
+
+.textRegular{
+  font-weight: $regular;
+}
+
+.textLight{
+  font-weight: $light;
+}
+
+
+/* TEXT ALIGN */
+
+.textCenter{
+  text-align: center;
+}
+
+.textLeft{
+  text-align: left;
+}
+
+.textRight{
+  text-align: right;
+}
+
+.textJustify{
+  text-align: justify;
+}
+
+/*ETIQUETAS RANDOM */
+
+/* SIZE ICO REDES */
+.imgFooter{
+  width: 35px;
+}
+
+/* CURSOR POINTER FOOTER */
+.imgFooter:hover{
+  cursor: pointer;
+}
+
+
+.error{
+  background-image: url(../img/michinotfound.png);
+}
+
+
+
+
+/* INDEX */
+/* ANIMACION HOVER SOBRE BTN */
+.nosotrosBtn{
+  background-color: #ff4a11;
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+  list-style: none;
+  width: 120px;
+  text-align: center;
+}
+
+.nosotrosBtn:hover{
+  filter: brightness(130%);
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+
+
+/* SERVICIOS */
+/*BG DE ARTICLE SERVICIOS */
+.bg-div{
+  background: rgba(186, 186, 186, .05);
+}
+
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
