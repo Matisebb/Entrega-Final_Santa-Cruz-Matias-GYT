@@ -21,22 +21,10 @@ body{
 }
 
 
-h1{
-  color: rgb(255, 74, 17);
-  font-size: $titleSize;
-}
 
-h2{
-  font-size: $subtitleSize;
-  color: $textColor;
-}
 
-article p{
-  font-size: $pSize;
-  line-height: 3.5rem;
-  color:$textColor;
-  text-decoration: none;
-}
+
+
 
 
 main a{
@@ -54,10 +42,6 @@ form {
 }
 
 
-h3{
-  font-size: $h3Size;
-  color: $textColor;
-}
 
 
 article h3{
@@ -70,10 +54,7 @@ section p{
   line-height: 2.3rem;
 }
 
-h4{
-  font-size: $h4Size;
-  color: rgb(2, 2, 2);
-}
+
 
 footer div a{
   font-size: $pSize;
@@ -85,7 +66,7 @@ footer div a{
 /* FONT WEIGHT */
 
 .textBold{
-  font-weight: $medium;
+  font-weight: $bold;
 }
 
 .textMedium{

@@ -1,0 +1,51 @@
+//MIXINS AND MAP
+
+//MIXINS
+@mixin titulo($size, $color){
+	font-family: 'Nunito', sans-serif;
+	font-size: $size;
+	color: $color;
+}
+
+//h6{
+	//@include titulo(2rem, #e5e5e5);
+//}
+
+h1{
+	@include titulo(4.2rem, rgb(255,74,17));
+}
+
+h2{
+	@include titulo(3rem, rgb(2,2,2));
+}
+
+h3{
+	@include titulo(2.5rem, rgb(2,2,2));
+}
+
+h4{
+	@include titulo(2.2rem, rgb(2,2,2));
+}
+
+article p{
+	@include titulo(1.9rem, rgb(2,2,2));
+	line-height: 3.5rem;
+	text-decoration: none;
+}
+
+//MAPS
+$paleta: (
+	'1' : rgba(255, 74, 17, 1), 
+	'2' : rgb(2,2,2),
+	'3' : rgba(245, 245, 245, 1.0), 
+	'4' : white,
+	);
+
+body{
+	overflow-x: hidden;
+	background: map-get($paleta, 3);
+}
+
+.colorForm{
+	color: map-get($paleta, 4);
+}

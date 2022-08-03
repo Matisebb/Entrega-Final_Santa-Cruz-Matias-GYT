@@ -14,20 +14,6 @@ body {
   overflow-x: hidden;
   background: whitesmoke; }
 
-h1 {
-  color: #ff4a11;
-  font-size: 4.2rem; }
-
-h2 {
-  font-size: 3rem;
-  color: #020202; }
-
-article p {
-  font-size: 1.9rem;
-  line-height: 3.5rem;
-  color: #020202;
-  text-decoration: none; }
-
 main a {
   text-decoration: none;
   color: #020202; }
@@ -38,20 +24,12 @@ form {
   font-size: 2rem;
   display: inline-block; }
 
-h3 {
-  font-size: 2.5rem;
-  color: #020202; }
-
 article h3 {
   font-size: 3rem; }
 
 section p {
   font-size: 1.9rem;
   line-height: 2.3rem; }
-
-h4 {
-  font-size: 2.2rem;
-  color: #020202; }
 
 footer div a {
   font-size: 1.9rem;
@@ -60,7 +38,7 @@ footer div a {
 
 /* FONT WEIGHT */
 .textBold {
-  font-weight: 500; }
+  font-weight: 700; }
 
 .textMedium {
   font-weight: 500; }
@@ -148,6 +126,36 @@ footer div a {
 .imgCliente:hover {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
   transform: translateY(-3%); }
+
+h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 4.2rem;
+  color: #ff4a11; }
+
+h2 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 3rem;
+  color: #020202; }
+
+h3 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 2.5rem;
+  color: #020202; }
+
+h4 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 2.2rem;
+  color: #020202; }
+
+article p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.9rem;
+  color: #020202;
+  line-height: 3.5rem;
+  text-decoration: none; }
+
+body {
+  overflow-x: hidden; }
 
 .bg-linear-gradient {
   background: #b6b6b6;
