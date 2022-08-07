@@ -127,6 +127,10 @@ footer div a {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
   transform: translateY(-3%); }
 
+.bg-linear-gradient {
+  background: #b6b6b6;
+  background: linear-gradient(150deg, #b6b6b6 0%, #c7c7c7 64%, #ec4410 100%); }
+
 h1 {
   font-family: 'Nunito', sans-serif;
   font-size: 4.2rem;
@@ -224,20 +228,6 @@ nav ul {
 .masInfo {
   text-decoration: none;
   color: #020202; }
-
-footer .bg-linear-gradient {
-  background: #b6b6b6;
-  background: linear-gradient(150deg, #b6b6b6 0%, #c7c7c7 64%, #ec4410 100%); }
-
-footer section p .textRegular {
-  font-weight: 400; }
-  footer section p .textRegular .imgFooter {
-    width: 35px; }
-
-footer section p .textLight {
-  font-weight: 300; }
-  footer section p .textLight .textBold {
-    font-weight: 700; }
 
 .card {
   width: 100%;
