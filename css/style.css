@@ -36,6 +36,9 @@ footer div a {
   text-decoration: none;
   color: #020202; }
 
+section[id] {
+  scroll-margin-top: 70px; }
+
 /* FONT WEIGHT */
 .textBold {
   font-weight: 700; }
